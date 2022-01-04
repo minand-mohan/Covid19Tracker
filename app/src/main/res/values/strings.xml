@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Covid19Tracker</string>
+    <string-array name="states">
+        <item>AN</item>
+        <item>AP</item>
+        <item>AR</item>
+        <item>AS</item>
+        <item>BR</item>
+        <item>CH</item>
+        <item>CG</item>
+        <item>DD</item>
+        <item>DL</item>
+        <item>GA</item>
+        <item>GJ</item>
+        <item>HR</item>
+        <item>HP</item>
+        <item>JK</item>
+        <item>JH</item>
+        <item>KA</item>
+        <item>KL</item>
+        <item>LA</item>
+        <item>LD</item>
+        <item>MP</item>
+        <item>MH</item>
+        <item>MN</item>
+        <item>ML</item>
+        <item>MZ</item>
+        <item>NL</item>
+        <item>OD</item>
+        <item>PY</item>
+        <item>PB</item>
+        <item>RJ</item>
+        <item>SK</item>
+        <item>TN</item>
+        <item>TS</item>
+        <item>TR</item>
+        <item>UP</item>
+        <item>UK</item>
+        <item>WB</item>
+    </string-array>
+    <string name="test_out">
+        "loc": "Jammu and Kashmir",
+        "confirmedCasesIndian": 341802,
+        "confirmedCasesForeign": 0,
+        "discharged": 335774,
+        "deaths": 4530,
+        "totalConfirmed": 341802
+    </string>
+</resources>

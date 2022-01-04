@@ -1,0 +1,42 @@
+package com.example.android.covid19tracker.data
+
+object AppData {
+    val stateMap = mapOf(
+        "AN" to "Andaman and Nicobar Islands",
+        "AP" to "Andhra Pradesh",
+        "AR" to "Arunachal Pradesh",
+        "AS" to "Assam",
+        "BR" to "Bihar",
+        "CH" to "Chandigarh",
+        "CG" to "Chhattisgarh",
+        "DD" to "Dadra and Nagar Haveli and Daman and Diu",
+        "DL" to "Delhi",
+        "GA" to "Goa",
+        "GJ" to "Gujarat",
+        "HR" to "Haryana",
+        "HP" to "Himachal Pradesh",
+        "JK" to "Jammu and Kashmir",
+        "JH" to "Jharkhand",
+        "KA" to "Karnataka",
+        "KL" to "Kerala***",
+        "LA" to "Ladakh",
+        "LD" to "Lakshadweep",
+        "MP" to "Madhya Pradesh",
+        "MH" to "Maharashtra",
+        "MN" to "Manipur",
+        "ML" to "Meghalaya",
+        "MZ" to "Mizoram",
+        "NL" to "Nagaland",
+        "OD" to "Odisha",
+        "PY" to "Puducherry",
+        "PB" to "Punjab",
+        "RJ" to "Rajasthan",
+        "SK" to "Sikkim",
+        "TN" to "Tamil Nadu",
+        "TS" to "Telangana",
+        "TR" to "Tripura",
+        "UP" to "Uttar Pradesh",
+        "UK" to "Uttarakhand",
+        "WB" to "West Bengal"
+    )
+}
