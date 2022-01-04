@@ -1,6 +1,8 @@
-## Covid Tracker App
+# Covid Tracker App
 App to track covid stats per state
 
-# Video Preview
+## Video Preview
 
-![covid19recording](https://user-images.githubusercontent.com/69006493/148064375-30b9deb0-837f-4147-8487-8783ecc88584.gif)
+https://user-images.githubusercontent.com/69006493/148064703-cf1447d7-cf7d-42f6-9b18-8846626b6add.mp4
+
+
