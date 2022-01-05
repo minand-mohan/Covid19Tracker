@@ -1,5 +1,6 @@
 package com.example.android.covid19tracker
 
+import android.animation.ValueAnimator
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -37,9 +38,18 @@ class ResultActivity : AppCompatActivity() {
         val discharged = startIntent.getIntExtra("discharged",0)
 
         stateText.setText(state)
-        confirmedText.setText(totalConfirmed.toString())
-        deathText.setText(deaths.toString())
-        dischargedText.setText(discharged.toString())
+        startCountAnimation(confirmedText, totalConfirmed)
+        startCountAnimation(deathText,deaths)
+        startCountAnimation(dischargedText,discharged)
+    }
+
+    private fun startCountAnimation(textView: TextView, endValue: Int) {
+        val animator = ValueAnimator.ofInt(0,endValue)
+        animator.setDuration(1000)
+        animator.addUpdateListener { animation ->
+            textView.text = animation.animatedValue.toString()
+        }
+        animator.start()
     }
 
     private fun goBacktoMain(view: View) {
