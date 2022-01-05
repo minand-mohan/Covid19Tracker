@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.Button
-import android.widget.EditText
 import android.widget.Spinner
 import android.widget.TextView
 import com.example.android.covid19tracker.data.AppData
@@ -16,7 +15,6 @@ import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import java.lang.NullPointerException
 
 const val BASE_URL = "https://api.rootnet.in/covid19-in/stats/"
 private const val TAG = "Covid19 app"
@@ -34,7 +32,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        initilaizeViews()
+        this.supportActionBar!!.hide()
+
+        initializeViews()
 
         retrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)
@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
-    private fun initilaizeViews() {
+    private fun initializeViews() {
         getDataButton = findViewById(R.id.btnGetData)
         resultText = findViewById(R.id.tvResult)
         stateSpinner = findViewById(R.id.spnStates)
